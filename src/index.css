@@ -1,13 +1,32 @@
+/* DARK THEME */
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #0b0b0b !important;
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #0b0b0b 0%, #050505 100%) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  padding-top: 80px;
+}
+
+/* Style for button in home  */
+/* GLOW BUTTON */
+.glow-btn {
+  background: #00f5d4 !important;
+  color: black !important;
+  padding: 12px 28px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 20px #00f5d4;
+  transition: 0.5s ease;
+  font-weight: 600;
+}
+
+.glow-btn:hover {
+  transform: scale(1.1);
 }

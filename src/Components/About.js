@@ -1,8 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import "../Styles/about.css";
+import AdditionalInfo from "./AddtionalInfo";
+import { useState } from "react";
 
 const About = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <section id="about" className="about-section">
       <Container>
@@ -35,6 +39,17 @@ const About = () => {
                 communication skills, looking to grow as a frontend developer
                 and contribute to impactful projects.
               </p>
+              <button
+                className="secondary-btn mt-3"
+                onClick={() => setShowModal(true)}
+              >
+                View Additional Skills & Languages
+              </button>
+
+              <AdditionalInfo
+                show={showModal}
+                handleClose={() => setShowModal(false)}
+              />
             </motion.div>
           </Col>
         </Row>

@@ -25,6 +25,7 @@ body {
   box-shadow: 0 0 20px #00f5d4;
   transition: 0.5s ease;
   font-weight: 600;
+
 }
 
 .glow-btn:hover {

@@ -4,6 +4,12 @@ import "../Styles/education.css";
 
 const education = [
   {
+    degree: "Frontend Development Course (React)",
+    institute: "Achievers IT Trainings, Bangalore",
+    year: "Dec 2023 – Jun 2024",
+  },
+
+  {
     degree: "Bachelor of Computer Applications (BCA)",
     institute:
       "Shri Nehru Maha Vidyalaya College of Arts and Science, Coimbatore",
